@@ -1,0 +1,147 @@
+.job-item-link {
+  text-decoration: none;
+}
+.job-item {
+  list-style-type: none;
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.company-details {
+  display: flex;
+  align-items: center;
+}
+.company-logo {
+  width: 60px;
+  height: 60px;
+}
+.job-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.job-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  color: #fbbf24;
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+}
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.job-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-employment-details {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.location {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+.job-item-employment-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.job-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.job-item-employment-type {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 8px;
+}
+.package {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+}
+.hr-line {
+  border: 1px solid #64748b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.description-title {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.job-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  .job-item {
+    border-radius: 12px;
+  }
+  .job-title {
+    font-size: 20px;
+  }
+  .package {
+    font-size: 18px;
+  }
+  .location-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .location {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  .job-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .job-item-employment-type {
+    font-size: 16px;
+    margin-left: 14px;
+  }
+  .job-item-employment-container {
+    margin-left: 25px;
+  }
+  .description-title {
+    font-size: 18px;
+  }
+  .job-description {
+    font-size: 16px;
+  }
+}

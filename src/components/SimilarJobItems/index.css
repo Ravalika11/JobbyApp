@@ -1,0 +1,131 @@
+.similar-job-list-item {
+  list-style-type: none;
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.similar-job-company-details {
+  display: flex;
+  align-items: center;
+}
+.similar-job-company-logo {
+  width: 70px;
+  height: 70px;
+}
+.similar-job-item-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.similar-job-item-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+.similar-job-rating-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-star-icon {
+  color: #fbbf24;
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+}
+.similar-job-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.similar-item-title {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+.similar-job-item-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 1.5;
+}
+.similar-job-location-employment-details {
+  display: flex;
+  align-items: center;
+}
+.similar-job-location-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-location-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.similar-job-location {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+.similar-job-item-employment-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.similar-item-job-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.similar-job-item-employment-type {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 8px;
+}
+@media (min-width: 768px) {
+  .similar-job-list-item {
+    width: 350px;
+    margin-right: 50px;
+    padding: 30px;
+  }
+  .similar-job-item-title {
+    font-size: 20px;
+  }
+  .similar-job-rating {
+    font-size: 18px;
+  }
+  .similar-item-title {
+    font-size: 25px;
+  }
+  .similar-job-item-description {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  .similar-job-location-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .similar-job-location {
+    font-size: 15px;
+    margin-left: 8px;
+  }
+  .similar-job-item-employment-container {
+    margin-left: 25px;
+  }
+  .similar-item-job-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .similar-job-item-employment-type {
+    font-size: 15px;
+    margin-left: 12px;
+  }
+}
